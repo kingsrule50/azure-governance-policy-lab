@@ -24,7 +24,7 @@
 | **Certification Alignment** | AZ-104 · AZ-500 · SC-100 · SC-300 |
 | **Estimated Time** | 3–4 hours |
 | **Estimated Cost** | $0 — Microsoft Azure Free Tier / Developer Tenant |
-| **Difficulty** | Beginner–Intermediate |
+| **Difficulty** | Intermediate |
 | **Platform** | Microsoft Azure Portal · Microsoft Entra ID |
 | **Career Relevance** | Cloud Security Engineer · Azure Administrator · Governance Analyst · Identity Engineer |
 
@@ -439,3 +439,4 @@ Cloud Security Engineer · Microsoft Azure · Governance & Identity
 *Part of a hands-on cloud security lab series · Microsoft Azure Developer Tenant · $0 cost*
 
 </div>
+
