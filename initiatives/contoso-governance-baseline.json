@@ -1,0 +1,32 @@
+{
+  "name": "contoso-governance-baseline",
+  "properties": {
+    "displayName": "contoso-governance-baseline",
+    "description": "Contoso baseline governance initiative — enforces location restrictions, mandatory tagging, and storage cost controls across all production resources",
+    "metadata": {
+      "category": "Contoso-Governance",
+      "version": "1.0.0"
+    },
+    "policyDefinitions": [
+      {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e56962a6-4747-49cd-b67b-bf8b01975c4f",
+        "policyDefinitionReferenceId": "Allowed locations_1",
+        "parameters": {
+          "listOfAllowedLocations": {
+            "value": ["eastus"]
+          }
+        }
+      },
+      {
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1e30110a-5cca-456c-a73e-f1f2d76ce48f",
+        "policyDefinitionReferenceId": "Require a tag on resources_1",
+        "parameters": {
+          "tagName": {
+            "value": "Environment"
+          }
+        }
+      }
+    ],
+    "parameters": {}
+  }
+}
